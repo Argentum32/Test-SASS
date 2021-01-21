@@ -1,0 +1,26 @@
+$headerFont: normal 15px Roboto, Ubuntu, Cantarell, Helvetica ,sans-serif;
+$bigHeaderFont:  normal 24px Roboto, Ubuntu, Cantarell, Helvetica ,sans-serif;
+$textFont: normal 18px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$bigTextFont: normal 26px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+%flexed {
+    display: flex;
+    flex-direction: column;
+}
+
+%boldAndUpHeaderFont {
+    font: $headerFont;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+%boldAndUpBigHeaderFont {
+    font: $bigHeaderFont;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+%widthFocusedImg {
+    height: auto;
+    width: 100%;
+}

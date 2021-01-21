@@ -1,0 +1,172 @@
+#list, article div, #about div, form, form div, #about, #contact, .info div {
+  display: flex;
+  flex-direction: column; }
+
+nav a, #contact h4 {
+  font: normal 15px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+#list h1, .post h3, div h1, #contact h1 {
+  font: normal 24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.logo img, article img, img.about {
+  height: auto;
+  width: 100%; }
+
+header {
+  background: url("../img/header_background_v1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 10% 90%; }
+
+.top-wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  max-width: 220px; }
+
+nav {
+  margin: 20px 40px;
+  display: flex;
+  justify-content: space-around; }
+
+nav a {
+  margin: 0 80px;
+  color: white;
+  text-decoration: none; }
+
+header section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-transform: uppercase;
+  color: white; }
+
+section h1 {
+  font: normal 24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+
+.btn-top {
+  background-color: #1b977c;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  margin: 6px auto;
+  justify-content: center; }
+
+main {
+  margin: 10px auto;
+  width: 75%;
+  display: flex;
+  flex-direction: column; }
+
+.toolbar {
+  padding: 10px;
+  display: flex;
+  align-self: flex-end;
+  height: 30px; }
+
+#list h1 {
+  color: black;
+  align-self: flex-end; }
+
+#list article {
+  margin: 10px 0;
+  padding: 4px;
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  color: black;
+  background-color: rgba(223, 217, 217, 0.342); }
+
+article img {
+  align-self: center; }
+
+.post {
+  margin: 12px; }
+
+.post-description {
+  color: red;
+  font: normal 18px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: small;
+  padding: 10px 1px;
+  border-bottom: 1px solid grey; }
+
+.post h3 {
+  color: rgba(16, 152, 156, 0.911);
+  margin: 4px 0; }
+
+p {
+  color: #111010;
+  font: normal 18px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin: 6px 0; }
+
+div .btn {
+  background-color: #28b193;
+  text-transform: uppercase;
+  width: 160px;
+  height: 30px;
+  margin: 2px 12px;
+  color: rgba(255, 255, 255, 0.884);
+  border: none;
+  align-self: flex-end; }
+
+#about, #contact {
+  margin-top: 40px; }
+
+div h1 {
+  margin: 0;
+  align-self: flex-end; }
+
+img.about {
+  margin: 20px 0; }
+
+#contact h1 {
+  color: black;
+  align-self: flex-end; }
+
+#contact h4 {
+  align-self: flex-end; }
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+  margin-bottom: 12px; }
+
+.info div {
+  font: normal 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+label {
+  color: rgba(16, 152, 156, 0.911);
+  align-self: flex-end;
+  font-size: small; }
+
+input {
+  color: rgba(13, 71, 82, 0.877); }
+
+.info div input {
+  height: 25px; }
+
+form div input {
+  height: 80px; }
+
+.submit {
+  background-color: #28b193;
+  text-transform: uppercase;
+  width: 160px;
+  height: 30px;
+  margin: 12px 0;
+  color: rgba(255, 255, 255, 0.884);
+  border: none;
+  align-self: flex-end; }
+
+footer {
+  font: normal 18px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: small; }
